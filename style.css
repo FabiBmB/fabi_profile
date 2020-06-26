@@ -1,0 +1,97 @@
+/* colors and fonts */
+
+
+body {
+	background-color: 204051;
+	color: pink;
+	font-family: gradian;
+}
+
+h1 {
+		FONT-VARIANT: JIS90;
+	color: rgb(46, 230, 115);
+	font-family: roboto;
+	font-weight: 700px;
+	letter-spacing: 3px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+h2{
+	color: rgb(46, 204, 113);
+	font-family: 'Volkhov', serif;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: bc658d;
+}
+a:hover {
+	color: pink;
+}
+
+
+/*Custom design with clas (99% of your design)*/
+.container{
+	width: 500px;
+	margin:40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white{
+background-color: black;
+padding:70px;
+box-shadow: 5px 10px 90px rgb(0,0,0,0.1);
+border-radius: 900px
+margin:40px 10px;
+text-align: center;
+}
+.img-circle{
+	border-radius: 30%;
+    width: 200px;
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color:red;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+.btn-blue: hover{
+	background-color:black;
+	color:white;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline li{
+	display:inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:rgb(230 230 230);
+}
+.list-inline i:hover {
+	color:black;
+}
+
+/*Design adjustments using id (1% design remaining)*/
+#introduction p {
+margin-bottom: 40px;
+}
